@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 32px 80px;
+    background-color: rgba(20, 29, 47, 1);
+}
+
+h1{
+    color: white;
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+nav{
+    display: flex;
+    gap: 32px;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.2s ease;
+    color: white;
+}
+
+a:hover{
+    color: rgba(112, 230, 28, 1);
+    text-decoration: underline;
+    text-decoration-color: rgba(151, 71, 255, 1);
+    text-underline-offset: 6px;
+}
+
+.language{
+    display: flex;
+    gap: 8px;
+}
+
