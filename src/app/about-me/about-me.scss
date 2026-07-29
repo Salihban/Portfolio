@@ -1,0 +1,54 @@
+.aboutMe{
+    background-color: rgba(20, 29, 47, 1);
+    color: white;
+    font-family: 'Poppins';
+}
+
+.about-Wrapper{
+    display: flex;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px;
+    gap: 150px;
+}
+
+.text-container{
+    width: 500px;
+}
+
+.about-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+
+.about-info{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 16px;
+    gap: 16px;
+
+}
+
+.about-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 500px;
+    gap: 24px;
+}
+
+.img-container{
+    width: 450px;
+    height: auto;
+}
