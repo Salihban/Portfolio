@@ -48,7 +48,15 @@
     gap: 24px;
 }
 
-.img-container{
-    width: 450px;
+.about-item img:hover{
+    transform: scale(1.2);
+}
+
+.img-about{
+    width: 600px;
     height: auto;
+    background-image: url(/assets/images/photo-shadows.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
