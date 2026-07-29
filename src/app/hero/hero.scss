@@ -1,13 +1,8 @@
 .hero{
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
     width: 100%;
     min-height: calc(100vh - 110px);
-    overflow: hidden;
-    padding: 80px;
+    overflow: visible;
     background-color: rgba(20, 29, 47, 1);
     color: white;
 }
@@ -16,18 +11,20 @@
     position: absolute;
     z-index: 1;
     pointer-events: none;
+    user-select: none;
+    height: auto;
+    width: 650px;
 }
 
 .hero-shadow-left{
-    left: -180px;
-    top: 80px;
-    width: 500px;
+    left: -80px;
+    width: 600px;
 }
 
 .hero-shadow-Right{
-    right: -120px;
-    bottom: 100px;
-    width: 500px;
+    top: -250px;
+    right: -80px;
+    width: 600px;
 }
 
 .hero-container{
@@ -40,7 +37,7 @@
     min-height: calc(100vh - 110px);
     position: relative;
     z-index: 2;
-    margin: 0;
+    margin: 0 auto;
     padding: 80px;
 }
 
@@ -95,11 +92,11 @@ h2{
     width: 150px;
 }
 
-.hero-bottom::before{
+.link-profiles::before{
     content: '';
     position: absolute;
-    left: -175vh;
     top: 50%;
+    right: calc(100% + 24px);
 
     width: 100vw;
     height: 4px;
@@ -108,7 +105,6 @@ h2{
 }
 
 .hero-bottom{
-    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -116,6 +112,7 @@ h2{
 }
 
 .link-profiles{
+    position: relative;
     display: flex;
     align-items: center;
     gap: 24px;
