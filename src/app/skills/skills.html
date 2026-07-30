@@ -1,1 +1,33 @@
-<p>skills works!</p>
+<section class="skills">
+    <img class="bg-wave" src="/assets/images/28. Hero Background.png" alt="">
+        <div class="skill-container">
+            <div class="skill-icons">
+                @for (skill of skillsIcons; track skill.name) {
+                    <div class="skill-item">
+                        <img [src]="skill.image" [alt]="skill.image">
+                        <span>{{skill.name}}</span>
+                    </div>
+                }
+            </div>
+            <div class="skill-text">
+                <div class="over-title">
+                    <h2>Skills</h2>
+                </div>
+                    <p>
+                        Highlight your experience of working on different projects using
+                        different front-end technologies (such as HTML, CSS, JavaScript, etc.)
+                        and emphasise your openness to learning and adapting to new technologies. 
+                        Mention the importance of continuing education to keep up with
+                        the rapid changes in web development.
+                    </p>
+                <div class="skill-text-another">
+                    <h3>Looking for <span>another skill</span>?</h3>
+                    <p>Reveal enthusiasm for learning new technologies and frameworks.</p>
+                </div>
+                <div class="skill-btn">
+                    <button>Get in touch</button>
+                </div>
+                
+            </div>
+        </div>
+</section>

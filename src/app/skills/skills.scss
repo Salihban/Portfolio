@@ -1,0 +1,112 @@
+.skills{
+    position: relative;
+    min-height: 850px;
+    background-color: rgba(20, 29, 47, 1);
+    color: white;
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
+
+.bg-wave{
+    position: absolute;
+    top: -280px;
+    left: 0px;
+    transform: rotate(5deg);
+
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.skill-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    z-index: 2;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 260px 80px 120px;
+    gap: 100px;
+}
+
+.skill-icons{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    column-gap: 40px;
+    row-gap: 70px;
+    width: 520px;
+}
+
+.skill-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 8px;
+    width: 100px;
+}
+
+.skill-icons img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    transition: transform 150ms ease;
+}
+
+.skill-icons img:hover{
+    transform: scale(1.2);
+}
+
+.skill-text{
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+    width: 520px;
+}
+
+.over-title{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    h2{
+        font-size: 70px;
+        line-height: 1;
+    }
+}
+
+.over-title::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: calc(45%);
+
+    width: 100vw;
+    height: 4px;
+    background-color: rgba(28, 218, 230, 1);
+    border-radius: 0px 4px 4px 0px;
+}
+
+.skill-text-another{
+    h3{
+        font-size: 32px;
+
+        span{
+            color:rgba(151, 71, 255, 1);
+        }
+    }
+}
+
+button{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(112, 230, 28, 1);
+    font-size: 22px;
+    cursor: pointer;
+    width: 170px;
+}
