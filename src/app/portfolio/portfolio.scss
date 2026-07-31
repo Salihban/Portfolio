@@ -1,0 +1,50 @@
+.portfolio{
+    background-color: rgba(20, 29, 47, 1);
+    color: white;
+    font-family: 'Poppins';
+}
+
+.overhead{
+    margin: 0 auto;
+    padding: 0 100px;
+    max-width: 1440px;
+
+    h2{
+    font-size: 80px;
+    line-height: 1;
+    }
+}
+
+    .portfolio-title::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: calc(100% + 24px);
+
+    width: 100vw;
+    height: 4px;
+    background-color: rgba(151, 71, 255, 1);
+    border-radius: 0px 4px 4px 0px;
+    }
+
+
+
+
+.portfolio-content{
+    display: flex;
+    flex: 1;
+    gap: 32px;
+    margin-top: 32px;
+    padding: 0 0 0 100px;
+
+    img{
+        border: 2px solid rgba(112, 230, 28, 1);
+        border-radius: 15px;
+    }
+}
+
+.portfolio-content img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
