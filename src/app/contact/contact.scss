@@ -1,0 +1,140 @@
+.contact{
+    background-color: rgba(20, 29, 47, 1);
+    color: white;
+    font-family: 'Poppins';
+}
+
+.headline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        font-size: 90px;
+    }
+}
+
+.headline::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: calc(65%);
+
+    width: 100vw;
+    height: 4px;
+    background-color: rgba(112, 230, 28, 1);
+    border-radius: 0px 4px 4px 0px;
+}
+
+.contact-wrapper{
+    display: flex;
+    justify-content: center;
+
+    height: 600px;
+    margin-top: 32px;
+    gap: 150px;
+}
+
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 32px;
+}
+
+.head-contect-text{
+    font-size: 32px;
+}
+
+.head-contect-text::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: calc(100% + 24px);
+
+    width: 100vw;
+    height: 4px;
+    background-color: rgba(151, 71, 255, 1);
+    border-radius: 0px 4px 4px 0px;
+}
+
+.head-bottom-text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    span{
+        font-weight: bold;
+    }
+}
+
+.contact-formular{
+    display: flex;
+    flex-direction: column;
+
+    gap: 32px;
+    .contact-input{
+        display: flex;
+        flex-direction: column;
+
+        gap: 46px;
+    }
+
+    .btn-contact{
+        display: flex;
+        justify-content: center;
+        
+
+        button{
+        width: 250px;
+        height: 60px;
+
+        font-size: 24px;
+        border-radius: 10px;
+        background-color: rgba(182, 182, 182, 1);
+        cursor: pointer;
+        }
+    }
+}
+
+.contact-input input, .message-field{
+    font-size: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(151, 71, 255, 1);
+}
+
+.contact-input input::placeholder,
+.message-field::placeholder{
+    padding: 16px 16px;
+    font-size: 24px;
+    color: white;
+}
+
+.contact-message{
+    font-size: 200px;
+}
+
+.checkbox{
+    display: flex;
+    font-size: 12px;
+    gap: 16px;
+
+    a{
+        color: rgba(151, 71, 255, 1);
+    }
+
+    input[type="checkbox"] {
+        border: 2px solid rgba(112, 230, 28, 1);
+    }
+
+    .contact-message{
+        height: 200px;
+        resize: none;
+    }
+}
+
+.go-up-btn{
+    position: relative;
+    bottom: 20px;
+    left: 1300px;
+}
