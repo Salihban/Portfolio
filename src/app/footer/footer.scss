@@ -1,0 +1,53 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(20, 29, 47, 1);
+    color: white;
+    font-family: 'Poppins';
+    height: 290px;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 40px;
+    width: 1240px;
+    max-width: 1440px;
+    padding: 0 0 0 100px;
+
+    .footer-name{
+        font-size: 40px;
+    }
+
+    .footer-copyright{
+        font-size: 20px;
+    }
+
+    .link-icons{
+        display: flex;
+        gap: 32px;
+        width: 170px;
+    }
+
+    .link-icons img:hover{
+        transform: scale(1.5);
+    }
+}
+
+.Legal {
+    display: flex;
+    justify-content: flex-start;
+
+    width: 1240px;
+    padding: 0 0 0 100px;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgba(112, 230, 28, 1);
+}
