@@ -37,4 +37,10 @@ skillsIcons = [
     image:'/assets/icons/Rest-API.svg'
   }
 ];
+
+scrollToContact() {
+  document.getElementById('Kontact')?.scrollIntoView({
+    behavior: 'smooth'
+  });
+}
 }
