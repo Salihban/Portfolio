@@ -20,9 +20,16 @@
         </div>
         <div class="contact-formular">
             <div class="contact-input">
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your Email">
-                <textarea class="message-field" placeholder="Your message"></textarea>
+                <form [formGroup]="contactForm">
+                    <label for="name"></label>
+                    <input id="name" type="text" formControlName="name" placeholder="Your name">
+
+                    <label for="mail"></label>
+                    <input id="mail" type="email" formControlName="email" placeholder="Your email">
+
+                    <label for="textArea"></label>
+                    <textarea class="message-field" formControlName="message" placeholder="Your message"></textarea>
+                </form>
             </div>
             <div class="checkbox">
                 <input type="checkbox" id="privacy">
