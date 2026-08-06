@@ -81,3 +81,147 @@
     top: -100px;
     left: 530px;
 }
+
+@media screen and (max-width: 1230px) {
+.ref-container {
+    padding: 80px 60px;
+    gap: 60px;
+}
+
+.ref-slider {
+    width: 560px;
+    height: 220px;
+}
+
+.ref-text {
+    padding: 28px 36px;
+}
+
+.ref-line {
+    padding: 24px 36px 16px 0;
+}
+
+.ref-line::before {
+    left: 36px;
+    right: 220px;
+}
+
+.ref-img img {
+    width: 180px;
+    height: 180px;
+}
+
+.ref-nav {
+    top: -70px;
+    left: 420px;
+}
+
+.ref-icon {
+    top: 90px;
+    left: 20px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.referenz {
+    padding-top: 40px;
+}
+
+.ref-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 24px 80px;
+    gap: 28px;
+}
+
+.ref-slider {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    min-height: 260px;
+}
+
+.ref-text {
+    width: 100%;
+    padding: 24px;
+}
+
+.ref-line {
+    width: 100%;
+    padding: 20px 24px 16px;
+}
+
+.ref-line::before {
+    left: 24px;
+    right: 160px;
+}
+
+.ref-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ref-img img {
+    width: 150px;
+    height: 150px;
+}
+
+.ref-img::after {
+    left: calc(50% + 75px);
+    width: 50vw;
+}
+
+.ref-icon {
+    top: 250px;
+    left: 20px;
+    width: 55px;
+}
+
+.ref-nav {
+    position: static;
+    margin-top: 24px;
+    width: 140px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.ref-container {
+    padding: 32px 16px 30px;
+}
+
+.ref-slider {
+    max-width: 100%;
+    min-height: 240px;
+}
+
+.ref-text {
+    padding: 20px;
+    font-size: 15px;
+}
+
+.ref-line {
+    padding: 18px 20px 14px;
+    font-size: 14px;
+}
+
+.ref-line::before {
+    left: 20px;
+    right: 210px;
+}
+
+.ref-img img {
+    width: 130px;
+    height: 130px;
+}
+
+.ref-img::after {
+    left: calc(50% + 65px);
+}
+
+.ref-icon {
+    display: none;
+}
+}

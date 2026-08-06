@@ -52,3 +52,68 @@ a:hover{
     text-decoration: underline;
     text-decoration-color: rgba(112, 230, 28, 1);
 }
+
+@media (max-width: 1230px) {
+.footer {
+    height: auto;
+    padding: 48px 32px;
+}
+
+.footer-wrapper {
+    width: 100%;
+    padding: 0;
+}
+
+.Legal {
+    width: 100%;
+    padding: 32px 0 0;
+}
+
+.footer-name {
+    font-size: 32px;
+}
+
+.footer-copyright {
+    font-size: 18px;
+}
+
+.link-icons {
+    gap: 24px;
+}
+}
+
+@media (max-width: 768px) {
+.footer{
+    padding: 16px;
+}
+.footer-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+    height: 100px;
+}
+
+.footer-name {
+    font-size: 40px;
+}
+
+.footer-copyright {
+    font-size: 18px;
+}
+
+.link-icons {
+    gap: 24px;
+    justify-content: center;
+}
+
+.Legal {
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.link-icons img {
+    width: 32px;
+    height: 32px;
+}
+}

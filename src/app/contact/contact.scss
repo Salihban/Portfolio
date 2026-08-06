@@ -161,3 +161,128 @@ input.ng-valid.ng-touched, textarea.ng-valid.ng-touched{
     bottom: 20px;
     left: 1300px;
 }
+
+@media (max-width: 1230px) {
+
+.headline {
+    h2 {
+    font-size: 72px;
+    }
+
+    &::after {
+        width: 600px;
+        left: calc(50% + 160px);
+    }
+}
+
+.contact-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    height: auto;
+    padding: 64px 32px;
+}
+
+.contact-text {
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    align-items: center;
+}
+
+.head-contect-text::before {
+    display: none;
+}
+
+.contact-formular {
+    width: 100%;
+    max-width: 700px;
+}
+
+.contact-input input, .message-field {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.checkbox {
+    justify-content: center;
+    text-align: center;
+}
+
+.go-up-btn {
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 32px;
+}
+}
+
+@media (max-width: 768px) {
+
+.headline {
+
+    h2 {
+    font-size: 52px;
+    }
+
+    &::after {
+        width: 280px;
+        left: calc(50% + 120px);
+    }
+}
+
+.contact-wrapper {
+    padding: 16px;
+    gap: 32px;
+}
+
+.contact-text {
+    width: 100%;
+    text-align: left;
+    gap: 24px;
+}
+
+.head-contect-text {
+    font-size: 20px;
+}
+
+.head-bottom-text {
+    font-size: 16px;
+}
+
+.contact-formular {
+    width: 100%;
+}
+
+.contact-input input {
+    height: 48px;
+    font-size: 18px;
+}
+
+.message-field {
+    height: 180px;
+    font-size: 18px;
+}
+
+.contact-input input::placeholder, .message-field::placeholder {
+    font-size: 18px;
+}
+
+.checkbox {
+    font-size: 11px;
+    align-items: flex-start;
+}
+
+.btn-contact button {
+    width: 100%;
+    max-width: 300px;
+    height: 56px;
+    font-size: 20px;
+}
+
+.go-up-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 24px;
+}
+}

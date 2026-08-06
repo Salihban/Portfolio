@@ -60,3 +60,73 @@
     background-size: contain;
     background-position: center;
 }
+
+@media screen and (max-width: 1230px){
+.about-container{
+    padding: 40px;
+    gap: 60px;
+}
+
+.text-container{
+    width: 420px;
+}
+
+.about-title{
+    font-size: 42px;
+}
+
+.about-info{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 16px;
+    gap: 16px;
+}
+
+.about-item{
+    width: 100%;
+    gap: 16px;
+}
+
+.img-about{
+    width: 420px;
+}
+
+.img-container{
+    width: 100%;
+    height: auto;
+}
+}
+
+@media screen and (max-width: 768px){
+.about-container{
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+    padding: 32px 24px;
+}
+
+.text-container{
+    width: 100%;
+    max-width: 320px;
+}
+
+.about-title{
+    justify-content: flex-start;
+    font-size: 42px;
+}
+.about-item{
+    width: 100%;
+    gap: 16px;
+}
+
+.img-about{
+    width:100%;
+    gap: 16px;
+}
+
+.img-container{
+    width: 100%;
+    height: auto;
+}
+}

@@ -11,7 +11,7 @@
 .bg-wave{
     position: absolute;
     top: -280px;
-    left: 0px;
+    left: -20px;
     transform: rotate(5deg);
 
     width: 100%;
@@ -111,4 +111,72 @@ button{
     font-size: 22px;
     cursor: pointer;
     width: 170px;
+}
+
+@media (max-width: 1230px) {
+
+.skill-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 120px 40px 80px;
+    gap: 64px;
+}
+
+.skill-text {
+    width: 100%;
+    text-align: center;
+}
+
+.skill-icons {
+    width: 100%;
+    justify-content: center;
+}
+
+.over-title::after {
+    display: none;
+}
+}
+
+@media (max-width: 768px) {
+.skill-container {
+    padding: 80px 20px 60px;
+    gap: 48px;
+}
+
+.skill-icons {
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    column-gap: 16px;
+    row-gap: 32px;
+}
+
+.skill-item {
+    width: auto;
+}
+
+.skill-text {
+    width: 100%;
+    text-align: center;
+}
+
+.over-title {
+    justify-content: center;
+
+    h2 {
+        font-size: 48px;
+    }
+
+    &::after {
+        display: none;
+    }
+}
+
+.skill-text-another h3 {
+    font-size: 24px;
+}
+
+button {
+    width: 160px;
+    font-size: 18px;
+}
 }
