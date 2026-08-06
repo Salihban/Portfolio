@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     
-    overflow: visible;
+    overflow: hidden;
     background-color: rgba(20, 29, 47, 1);
     color: white;
 }
@@ -101,7 +101,7 @@ h2{
     right: 100%;
     transform: translateY(-50%);
 
-    width: 300px;
+    width: 1000px;
     height: 4px;
     margin-right: 24px;
     background-color: rgba(112, 230, 28, 1);

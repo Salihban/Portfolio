@@ -2,6 +2,7 @@
     background-color: rgba(20, 29, 47, 1);
     color: white;
     font-family: 'Poppins';
+    overflow-x: hidden;
 }
 
 .headline{
@@ -19,9 +20,9 @@
     content: '';
     position: absolute;
     top: 50%;
-    left: calc(65%);
+    left: calc(50% + 210px);
 
-    width: 100vw;
+    width: 1000px;
     height: 4px;
     background-color: rgba(112, 230, 28, 1);
     border-radius: 0px 4px 4px 0px;
