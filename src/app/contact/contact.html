@@ -23,12 +23,21 @@
                 <form [formGroup]="contactForm">
                     <label for="name"></label>
                     <input id="name" type="text" formControlName="name" placeholder="Your name">
+                    @if (contactForm.get('name')?.touched && contactForm.get('name')?.hasError('minlength')) {
+                        <p class="error-message">Your name must contain at least 3 characters.</p>
+                    }
 
                     <label for="mail"></label>
                     <input id="mail" type="email" formControlName="email" placeholder="Your email">
+                    @if (contactForm.get('email')?.touched && contactForm.get('email')?.hasError('email')) {
+                        <p class="error-message">your email is required.</p>
+                    }
 
-                    <label for="textArea"></label>
-                    <textarea class="message-field" formControlName="message" placeholder="Your message"></textarea>
+                    <label id="Message" for="textArea"></label>
+                    <textarea id="Message" class="message-field" formControlName="message" placeholder="Your message"></textarea>
+                    @if (contactForm.get('message')?.touched && contactForm.get('message')?.hasError('required')) {
+                        <p class="error-message">Your name must contain at least 10 characters.</p>
+                    }
                 </form>
             </div>
             <div class="checkbox">
