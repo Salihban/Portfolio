@@ -10,31 +10,31 @@ export class Skills {
 skillsIcons = [
   {
     name: 'HTML',
-    image:'/assets/icons/HTML.svg'
+    image:'assets/icons/HTML.svg'
   },
   {
     name: 'CSS',
-    image:'/assets/icons/CSS.svg'
+    image:'assets/icons/CSS.svg'
   },
   {
     name: 'JavaScript',
-    image:'/assets/icons/Javascript.svg'
+    image:'assets/icons/Javascript.svg'
   },
   {
     name: 'TypeScript',
-    image:'/assets/icons/Typescript.svg'
+    image:'assets/icons/Typescript.svg'
   },
   {
     name: 'Angular',
-    image:'/assets/icons/Angular.svg'
+    image:'assets/icons/Angular.svg'
   },
   {
     name: 'Git',
-    image:'/assets/icons/Git.svg'
+    image:'assets/icons/Git.svg'
   },
   {
     name: 'Rest-Api',
-    image:'/assets/icons/Rest-API.svg'
+    image:'assets/icons/Rest-API.svg'
   }
 ];
 
