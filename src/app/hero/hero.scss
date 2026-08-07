@@ -163,47 +163,47 @@ h2{
     font-size: 58px;
     }
 
-.name-container {
+.name-container{
     h2 {
     font-size: 68px;
     }
 }
 
-.job-title {
+.job-title{
     font-size: 42px;
 }
 
-.hero-shadow {
+.hero-shadow{
     width: 520px;
 }
 
-.hero-shadow-left {
+.hero-shadow-left{
     left: -130px;
 }
 
-.hero-shadow-right {
+.hero-shadow-right{
     top: -180px;
     right: -140px;
 }
 
-.hero-bottom {
+.hero-bottom{
     top: 240px;
 }
 
-.scroll-down {
+.scroll-down{
     right: 20px;
     bottom: 100px;
 }
 }
 
 @media screen and (max-width: 768px) {
-.hero-container {
+.hero-container{
     height: 760px;
     padding: 40px 24px;
     justify-content: center;
 }
 
-.hero-content {
+.hero-content{
     gap: 24px;
     width: 100%;
 }
@@ -213,45 +213,45 @@ h2{
     width: 100%;
 }
 
-.iam {
+.iam{
     margin: 0 8px 0 0;
     font-size: 38px;
 }
 
-.name-container {
+.name-container{
     h2 {
     font-size: 46px;
     white-space: nowrap;
     }
 }
 
-.job-title {
+.job-title{
     margin-top: 6px;
     font-size: 28px;
     white-space: nowrap;
 }
 
-.talk-button {
+.talk-button{
     width: auto;
     padding: 14px 24px;
     font-size: 18px;
 }
 
-.hero-shadow {
+.hero-shadow{
     width: 380px;
 }
 
-.hero-shadow-left {
+.hero-shadow-left{
     left: -190px;
     top: 100px;
 }
 
-.hero-shadow-right {
+.hero-shadow-right{
     top: 140px;
     right: -190px;
 }
 
-.hero-bottom {
+.hero-bottom{
     position: absolute;
     top: auto;
     bottom: 80px;
@@ -259,16 +259,16 @@ h2{
     width: 100%;
 }
 
-.link-profiles {
+.link-profiles{
     gap: 24px;
 }
 
-.link-profiles img {
+.link-profiles img{
     width: 28px;
     height: 28px;
 }
 
-.link-profiles::before {
+.link-profiles::before{
     width: 80px;
     margin-right: 16px;
 }
@@ -290,7 +290,7 @@ h2{
     height: 300px;
 }
 
-.hero-container {
+.hero-container{
     height: 600px;
     padding: 32px 16px;
 }
@@ -299,32 +299,32 @@ h2{
     gap: 100px;
 }
 
-.iam {
+.iam{
     font-size: 30px;
     margin-right: 6px;
 }
 
-.name-container {
+.name-container{
     h2 {
     font-size: 42px;
     }
 }
 
-.job-title {
+.job-title{
     font-size: 22px;
 }
 
-.hero-bottom {
+.hero-bottom{
     justify-content: center;
     bottom: 60px;
     width: 320px;
 }
 
-.link-profiles {
+.link-profiles{
     gap: 40px;
 }
 
-.link-profiles::before {
+.link-profiles::before{
     width: 100px;
     margin-right: 24px;
 }
