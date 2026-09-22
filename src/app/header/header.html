@@ -1,20 +1,30 @@
 <header>
-    <div class="header-wrapper">
-        <div class="logo">
-            <a href="#hero-page"><h1>Salih</h1></a>
-        </div>
+<div class="header-wrapper">
+    <div class="logo">
+        <a href="#hero-page" (click)="closeMenu()">
+        <h1>Salih</h1>
+        </a>
+    </div>
 
-        <div class="right-side">
-            <nav>
-                <a href="#about-me">About me</a>
-                <a href="#skillz">Skills</a>
-                <a href="#PortfoliO">Portfolio</a>
-            </nav>
+    <div class="right-side" [class.open]="menuOpen">
+        <nav>
+            <a href="#about-me" (click)="closeMenu()">About me</a>
+            <a href="#skillz" (click)="closeMenu()">Skills</a>
+            <a href="#portfolio" (click)="closeMenu()">Portfolio</a>
+            <a class="contact-link" href="#contact" (click)="closeMenu()">Contact</a>
+        </nav>
 
-            <div class="language">
-                <button>DE</button>
-                <button>EN</button>
-            </div>
+        <div class="language">
+            <button>DE</button>
+            <span>/</span>
+            <button>EN</button>
         </div>
     </div>
+
+    <button class="burger"[class.open]="menuOpen" (click)="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</div>
 </header>
