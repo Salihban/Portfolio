@@ -8,16 +8,16 @@
 
     <div class="right-side" [class.open]="menuOpen">
         <nav>
-            <a href="#about-me" (click)="closeMenu()">About me</a>
-            <a href="#skillz" (click)="closeMenu()">Skills</a>
-            <a href="#portfolio" (click)="closeMenu()">Portfolio</a>
+            <a href="#about-me" (click)="closeMenu()">{{ 'HEADER.ABOUT' | translate }}</a>
+            <a href="#skillz" (click)="closeMenu()">{{ 'HEADER.SKILLS' | translate }}</a>
+            <a href="#portfolio" (click)="closeMenu()">{{ 'HEADER.PORTFOLIO' | translate }}</a>
             <a class="contact-link" href="#contact" (click)="closeMenu()">Contact</a>
         </nav>
 
         <div class="language">
-            <button>DE</button>
+            <button (click)="changeLanguage('de')">DE</button>
             <span>/</span>
-            <button>EN</button>
+            <button (click)="changeLanguage('en')">EN</button>
         </div>
     </div>
 
