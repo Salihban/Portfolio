@@ -46,5 +46,8 @@
     "PRIVACY_LINK": "Privacy Policy",
     "PRIVACY_AFTER": "and agree to the processing of my data as outlined.",
     "SEND": "Send message"
+    },
+    "FOOTER": {
+    "LEGAL": "Legal Notice"
     }
 }

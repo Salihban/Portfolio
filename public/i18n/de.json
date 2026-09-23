@@ -46,5 +46,8 @@
     "PRIVACY_LINK": "Datenschutzerklärung",
     "PRIVACY_AFTER": "gelesen und stimme der dort beschriebenen Verarbeitung meiner Daten zu.",
     "SEND": "Nachricht senden"
+    },
+    "FOOTER": {
+    "LEGAL": "Rechtshinweis"
     }
 }
