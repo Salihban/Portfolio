@@ -8,5 +8,12 @@
         "IAM": "Ich bin",
         "LETSTALK": "Lass uns Reden!",
         "SCROLLDOWN": "Nach unten scrollen"
-    }
+    },
+    "ABOUT": {
+    "TITLE": "Über mich",
+    "INTRO": "Hallo, ich bin Salih! Ich bin ein leidenschaftlicher Frontend-Entwickler und stehe kurz vor dem Abschluss meiner intensiven Weiterbildung. Mein Fokus liegt auf modernen Webanwendungen. Besonders begeistert mich, komplexe Ideen mit Angular und TypeScript in übersichtliche, interaktive und benutzerfreundliche Anwendungen zu verwandeln. Neue Webtechnologien und die Entwicklung digitaler Produkte inspirieren mich ständig. Lass uns gemeinsam etwas Großartiges schaffen!",
+    "LOCATION": "Ich lebe in Hannover und bin flexibel für die Arbeit vor Ort, hybrid oder vollständig im Homeoffice – abhängig vom Projekt und den Anforderungen des Teams.",
+    "LEARNING": "Technologien entwickeln sich schnell – und ich mich ebenso. Ich lerne gerne neue Frameworks, bewährte Vorgehensweisen und Werkzeuge. Aktuell vertiefe ich meine Kenntnisse in Angular, RxJS und sauberer Softwarearchitektur.",
+    "APPROACH": "Ich löse Herausforderungen beim Programmieren mit analytischem Denken, Kreativität und Ausdauer. Jeder Fehler ist für mich eine Gelegenheit, die Codequalität zu verbessern und gemeinsam im Team zuverlässige Lösungen zu entwickeln."
+}
 }

@@ -8,6 +8,12 @@
         "IAM": "I AM",
         "LETSTALK": "Let's Talk!",
         "SCROLLDOWN": "Scroll Down"
+    },
+    "ABOUT": {
+    "TITLE": "About me",
+    "INTRO": "Hey there, I'm Salih! I am a passionate Frontend Developer finishing my intensive training, with a strong focus on modern web applications. What drives me about coding is the immediate impact: turning complex ideas into clean, interactive, and user-friendly web experiences using Angular and TypeScript. I am constantly inspired by new web technologies and the process of building seamless digital products. Let's connect and create something amazing together!",
+    "LOCATION": "Based in Hanover, Germany. I am flexible and open to working on-site, in hybrid setups, or fully remote, depending on the project and team needs.",
+    "LEARNING": "Technology evolves quickly, and so do I. I thrive on learning new frameworks, best practices, and tools—currently focusing on deepening my knowledge in Angular, RxJS, and clean architecture.",
+    "APPROACH": "I approach coding challenges with analytical thinking, creativity, and persistence. For me, every bug is an opportunity to refine code quality and deliver elegant, reliable solutions through team collaboration."
     }
-    
 }
