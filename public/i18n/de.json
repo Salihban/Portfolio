@@ -3,5 +3,10 @@
         "ABOUT": "Über mich",
         "SKILLS": "Fähigkeiten",
         "PORTFOLIO": "Portfolio"
+    },
+    "HERO": {
+        "IAM": "Ich bin",
+        "LETSTALK": "Lass uns Reden!",
+        "SCROLLDOWN": "Nach unten scrollen"
     }
 }

@@ -3,5 +3,11 @@
         "ABOUT": "About me",
         "SKILLS": "Skills",
         "PORTFOLIO": "Portfolio"
+    },
+    "HERO": {
+        "IAM": "I AM",
+        "LETSTALK": "Let's Talk!",
+        "SCROLLDOWN": "Scroll Down"
     }
+    
 }
