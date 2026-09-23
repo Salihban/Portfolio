@@ -61,6 +61,21 @@
     "PRIVACY_AFTER": "gelesen und stimme der dort beschriebenen Verarbeitung meiner Daten zu.",
     "SEND": "Nachricht senden"
     },
+    "PRIVACY": {
+    "TITLE": "Datenschutzerklärung",
+    "SEC1_TITLE": "1. Überblick",
+    "SEC1_TEXT": "Der Schutz deiner personenbezogenen Daten ist mir sehr wichtig. Diese Datenschutzerklärung informiert dich über Art, Umfang und Zweck der Verarbeitung personenbezogener Daten innerhalb meiner Portfolio-Webseite.",
+    "SEC2_TITLE": "2. Verantwortliche Stelle",
+    "SEC2_TEXT": "Für die Datenverarbeitung auf dieser Webseite ist die im Impressum dieses Portfolios genannte Person verantwortlich.",
+    "SEC3_TITLE": "3. Hosting und Server-Logdateien",
+    "SEC3_TEXT": "Beim Besuch meiner Webseite übermittelt dein Browser automatisch Daten an den Server, auf dem dieses Portfolio gehostet wird. Diese Daten werden aus technischen Gründen erhoben, um einen reibungslosen Verbindungsaufbau und die Systemsicherheit zu gewährleisten. Eine Zusammenführung mit anderen Datenquellen findet nicht statt. Rechtsgrundlage für diese Verarbeitung ist mein berechtigtes Interesse am sicheren und fehlerfreien Betrieb der Webseite.",
+    "SEC4_TITLE": "4. Kontaktformular und direkte Kontaktaufnahme",
+    "SEC4_TEXT": "Wenn du mich per E-Mail oder über das Kontaktformular dieses Portfolios kontaktierst, werden deine Angaben, beispielsweise dein Name und deine E-Mail-Adresse, zur Bearbeitung deiner Anfrage und für mögliche Anschlussfragen gespeichert. Diese Daten gebe ich nicht ohne deine Einwilligung weiter.",
+    "SEC5_TITLE": "5. Cookies und Tracking",
+    "SEC5_TEXT": "Diese Portfolio-Webseite verwendet keine Tracking-Cookies, Analysetools wie Google Analytics oder Marketing-Tracker von Drittanbietern.",
+    "SEC6_TITLE": "6. Deine Rechte",
+    "SEC6_TEXT": "Du hast jederzeit das Recht, kostenlos Auskunft über deine gespeicherten personenbezogenen Daten, deren Herkunft, Empfänger und den Zweck der Datenverarbeitung zu erhalten. Außerdem hast du das Recht, die Berichtigung oder Löschung deiner Daten zu verlangen. Bei Fragen kannst du mich über die im Impressum angegebenen Kontaktdaten erreichen."
+    },
     "FOOTER": {
     "LEGAL": "Rechtshinweis"
     }

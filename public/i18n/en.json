@@ -61,6 +61,21 @@
     "PRIVACY_AFTER": "and agree to the processing of my data as outlined.",
     "SEND": "Send message"
     },
+    "PRIVACY": {
+    "TITLE": "Privacy Policy",
+    "SEC1_TITLE": "1. Overview",
+    "SEC1_TEXT": "Protecting your personal data is very important to me. This privacy policy informs you about the type, scope, and purpose of the processing of personal data within my portfolio website.",
+    "SEC2_TITLE": "2. Responsible Party",
+    "SEC2_TEXT": "The person named in the legal notice of this portfolio is responsible for data processing on this website.",
+    "SEC3_TITLE": "3. Hosting & Server Log Files",
+    "SEC3_TEXT": "When you visit my website, your browser automatically transmits data to the server hosting this portfolio. This data is collected for technical reasons to ensure a smooth connection setup and system security. It is not merged with other data sources. The legal basis for this processing is my legitimate interest in the secure and error-free operation of the website.",
+    "SEC4_TITLE": "4. Contact Form / Direct Contact",
+    "SEC4_TEXT": "If you contact me via email or a contact form provided on this portfolio, the details you provide, such as your name and email address, will be stored for the purpose of processing your request and in case of follow-up questions. I will not share this data without your consent.",
+    "SEC5_TITLE": "5. Cookies & Tracking",
+    "SEC5_TEXT": "This portfolio website does not use tracking cookies, analytics tools such as Google Analytics, or third-party marketing trackers.",
+    "SEC6_TITLE": "6. Your Rights",
+    "SEC6_TEXT": "You have the right to request information about your stored personal data, its origin, recipients, and the purpose of data processing at any time free of charge. You also have the right to request the correction or deletion of your data. If you have questions regarding this, you can contact me using the contact details provided in the legal notice."
+    },
     "FOOTER": {
     "LEGAL": "Legal Notice"
     }
