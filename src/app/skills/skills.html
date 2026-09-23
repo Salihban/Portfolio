@@ -11,21 +11,15 @@
             </div>
             <div class="skill-text">
                 <div class="over-title">
-                    <h2>Skills</h2>
+                    <h2>{{ 'SKILLS.TITLE' | translate }}</h2>
                 </div>
-                    <p>
-                        Highlight your experience of working on different projects using
-                        different front-end technologies (such as HTML, CSS, JavaScript, etc.)
-                        and emphasise your openness to learning and adapting to new technologies. 
-                        Mention the importance of continuing education to keep up with
-                        the rapid changes in web development.
-                    </p>
+                    <p>{{ 'SKILLS.TEXT' | translate }}</p>
                 <div class="skill-text-another">
-                    <h3>Looking for <span>another skill</span>?</h3>
-                    <p>Reveal enthusiasm for learning new technologies and frameworks.</p>
+                    <h3>{{ 'SKILLS.LOOKING' | translate }}<span>{{ 'SKILLS.ANOTHER' | translate }}</span>?</h3>
+                    <p>{{ 'SKILLS.LEARNING' | translate }}</p>
                 </div>
                 <div class="skill-btn">
-                    <button (click)="scrollToContact()" >Get in touch</button>
+                    <button (click)="scrollToContact()">{{ 'SKILLS.BUTTON' | translate }}</button>
                 </div>
                 
             </div>

@@ -15,5 +15,13 @@
     "LOCATION": "Based in Hanover, Germany. I am flexible and open to working on-site, in hybrid setups, or fully remote, depending on the project and team needs.",
     "LEARNING": "Technology evolves quickly, and so do I. I thrive on learning new frameworks, best practices, and tools—currently focusing on deepening my knowledge in Angular, RxJS, and clean architecture.",
     "APPROACH": "I approach coding challenges with analytical thinking, creativity, and persistence. For me, every bug is an opportunity to refine code quality and deliver elegant, reliable solutions through team collaboration."
+    },
+    "SKILLS": {
+    "TITLE": "Skills",
+    "TEXT": "I have gained experience working on different projects using front-end technologies such as HTML, CSS, JavaScript, TypeScript, and Angular. I am always open to learning new technologies and adapting to new challenges. Continuous learning is important to me to keep pace with the rapid development of the web.",
+    "LOOKING": "Looking for",
+    "ANOTHER": "another skill",
+    "LEARNING": "I am enthusiastic about learning new technologies and frameworks.",
+    "BUTTON": "Get in touch"
     }
 }
