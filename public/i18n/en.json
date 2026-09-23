@@ -29,5 +29,22 @@
     "LIVE": "Live test",
     "POLLO": "A jump-and-run game built with object-oriented JavaScript. Help Pepe collect coins and tabasco salsa to defeat the crazy hen.",
     "JOIN": "A task manager inspired by the Kanban system. Create and organize tasks with drag and drop, assign users and choose categories."
+    },
+    "CONTACT": {
+    "TITLE": "Contact",
+    "QUESTION": "Got a problem to solve?",
+    "DESCRIPTION": "Have a project in mind? Tell me what you need and how I can help.",
+    "NEED": "Need a Frontend Developer?",
+    "ME": "Contact me!",
+    "NAME": "Your name",
+    "NAME_ERROR": "Your name must contain at least 3 characters.",
+    "EMAIL": "Your email",
+    "EMAIL_ERROR": "A valid email address is required.",
+    "MESSAGE": "Your message",
+    "MESSAGE_ERROR": "Your message must contain at least 10 characters.",
+    "PRIVACY_BEFORE": "I've read the",
+    "PRIVACY_LINK": "Privacy Policy",
+    "PRIVACY_AFTER": "and agree to the processing of my data as outlined.",
+    "SEND": "Send message"
     }
 }

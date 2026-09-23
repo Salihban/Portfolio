@@ -29,5 +29,22 @@
     "LIVE": "Live testen",
     "POLLO": "Ein Jump-and-Run-Spiel mit objektorientiertem JavaScript. Hilf Pepe, Münzen und Tabasco-Soße zu sammeln und das verrückte Huhn zu besiegen.",
     "JOIN": "Ein Aufgabenmanager nach dem Kanban-Prinzip. Erstelle und organisiere Aufgaben per Drag-and-drop, weise Nutzer zu und wähle Kategorien."
+    },
+    "CONTACT": {
+    "TITLE": "Kontakt",
+    "QUESTION": "Du hast ein Problem, das gelöst werden soll?",
+    "DESCRIPTION": "Du hast ein Projekt im Kopf? Erzähl mir, was du brauchst und wie ich helfen kann.",
+    "NEED": "Du suchst einen Frontend-Entwickler?",
+    "ME": "Kontaktiere mich!",
+    "NAME": "Dein Name",
+    "NAME_ERROR": "Dein Name muss mindestens 3 Zeichen enthalten.",
+    "EMAIL": "Deine E-Mail-Adresse",
+    "EMAIL_ERROR": "Bitte gib eine gültige E-Mail-Adresse ein.",
+    "MESSAGE": "Deine Nachricht",
+    "MESSAGE_ERROR": "Deine Nachricht muss mindestens 10 Zeichen enthalten.",
+    "PRIVACY_BEFORE": "Ich habe die",
+    "PRIVACY_LINK": "Datenschutzerklärung",
+    "PRIVACY_AFTER": "gelesen und stimme der dort beschriebenen Verarbeitung meiner Daten zu.",
+    "SEND": "Nachricht senden"
     }
 }
