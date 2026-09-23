@@ -97,6 +97,10 @@
         border-radius: 10px;
         background-color: rgba(182, 182, 182, 1);
         cursor: pointer;
+
+        &:hover{
+            background: rgba(112, 230, 28, 1);
+        }
         }
     }
 }
