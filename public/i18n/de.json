@@ -23,5 +23,11 @@
     "ANOTHER": "weiteren Fähigkeit",
     "LEARNING": "Ich lerne mit großer Begeisterung neue Technologien und Frameworks.",
     "BUTTON": "Kontakt aufnehmen"
+    },
+    "PORTFOLIO": {
+    "INTRO": "Entdecke eine Auswahl meiner Arbeiten und probiere die Projekte aus.",
+    "LIVE": "Live testen",
+    "POLLO": "Ein Jump-and-Run-Spiel mit objektorientiertem JavaScript. Hilf Pepe, Münzen und Tabasco-Soße zu sammeln und das verrückte Huhn zu besiegen.",
+    "JOIN": "Ein Aufgabenmanager nach dem Kanban-Prinzip. Erstelle und organisiere Aufgaben per Drag-and-drop, weise Nutzer zu und wähle Kategorien."
     }
 }

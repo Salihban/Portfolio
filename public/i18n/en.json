@@ -23,5 +23,11 @@
     "ANOTHER": "another skill",
     "LEARNING": "I am enthusiastic about learning new technologies and frameworks.",
     "BUTTON": "Get in touch"
+    },
+    "PORTFOLIO": {
+    "INTRO": "Explore a selection of my work here – interact with projects to see my skills in action.",
+    "LIVE": "Live test",
+    "POLLO": "A jump-and-run game built with object-oriented JavaScript. Help Pepe collect coins and tabasco salsa to defeat the crazy hen.",
+    "JOIN": "A task manager inspired by the Kanban system. Create and organize tasks with drag and drop, assign users and choose categories."
     }
 }
