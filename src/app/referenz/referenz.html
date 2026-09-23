@@ -1,16 +1,34 @@
-<section class="referenz">
-    <img class="ref-icon" src="assets/images/Frame 281.svg" alt="">
-    <div class="ref-container">
-        <div class="ref-slider">
-            <p class="ref-text">
-                Michael really kept the team together with his great organization
-                and clear communication. We wouldn't have got this far without his commitment.
-            </p>
-            <p class="ref-line">V.Schuster - Team Partner</p>
+<section class="references">
+    <div class="references-container">
+        <img src="assets/images/Frame 281.svg" class="referenz-icon" alt="">
+        <div class="references-content">
+            <div class="references-card">
+                <p class="references-text">
+                    {{ ('REFERENCES.LIST' | translate)[currentReference()].text }}
+                </p>
+                <div class="references-footer">
+                    <div class="references-line"></div>
+                    <span class="references-author">
+                        {{ ('REFERENCES.LIST' | translate)[currentReference()].author }}
+                    </span>
+                </div>
+            </div>
+            <div class="references-image-container">
+                <img class="referenz-image" [src]="referenzImages[currentReference()]" [alt]="('REFERENCES.LIST' | translate)[currentReference()].author">
+            </div>
         </div>
-        <div class="ref-img">
-            <img src="assets/images/Ref-pic.png" alt="">
+        <div class="references-navigation">
+            <button class="references-arrow" type="button" aria-label="Previous reference" (click)="previousReference()">
+                <img src="assets/images/arrow_back.png" alt="">
+            </button>
+            <div class="references-dots">
+                @for (img of referenzImages; track $index; let i = $index) {
+                    <button class="references-dot" type="button" [class.references-dot--active]="i === currentReference()" (click)="setCurrentReference(i)" [attr.aria-label]="getReferenceLabel(i)"></button>
+                }
+            </div>
+            <button class="references-arrow" type="button" aria-label="Next reference" (click)="nextReference()">
+                <img src="assets/images/arrow_forward.png" alt="">
+            </button>
         </div>
     </div>
-        <img class="ref-nav" src="assets/icons/slider-nav.svg" alt="">
 </section>

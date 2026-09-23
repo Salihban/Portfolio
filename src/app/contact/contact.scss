@@ -209,8 +209,15 @@ input.ng-valid.ng-touched, textarea.ng-valid.ng-touched{
 }
 
 .checkbox {
-    justify-content: center;
-    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+
+    input{
+        width: 24px;
+        height: 24px;
+    }
 }
 
 .go-up-btn {
@@ -273,14 +280,22 @@ input.ng-valid.ng-touched, textarea.ng-valid.ng-touched{
 }
 
 .checkbox {
-    font-size: 11px;
+    display: flex;
     align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+
+    input{
+        width: 24px;
+        height: 24px;
+    }
 }
 
 .btn-contact button {
     width: 100%;
     max-width: 300px;
     height: 56px;
+    margin-top: 24px;
     font-size: 20px;
 }
 
@@ -288,5 +303,6 @@ input.ng-valid.ng-touched, textarea.ng-valid.ng-touched{
     display: flex;
     justify-content: flex-end;
     margin-bottom: 24px;
+    margin-right: 24px;
 }
 }
