@@ -76,6 +76,26 @@
     "SEC6_TITLE": "6. Deine Rechte",
     "SEC6_TEXT": "Du hast jederzeit das Recht, kostenlos Auskunft über deine gespeicherten personenbezogenen Daten, deren Herkunft, Empfänger und den Zweck der Datenverarbeitung zu erhalten. Außerdem hast du das Recht, die Berichtigung oder Löschung deiner Daten zu verlangen. Bei Fragen kannst du mich über die im Impressum angegebenen Kontaktdaten erreichen."
     },
+    "LEGAL": {
+    "TITLE": "Impressum",
+    "IMPRINT": "Angaben gemäß § 5 DDG",
+    "CONTACT": "Kontakt",
+    "ACCEPTANCE_TITLE": "Annahme der Bedingungen",
+    "ACCEPTANCE_TEXT": "Durch den Zugriff auf und die Nutzung von Portfolio erklärst du dich mit diesen Bedingungen sowie mit allen Richtlinien, Hinweisen und Änderungen einverstanden, die von Zeit zu Zeit bereitgestellt werden. Diese Bedingungen können ohne vorherige Ankündigung geändert werden.",
+    "SCOPE_TITLE": "Umfang und Eigentum des Produkts",
+    "SCOPE_TEXT1": "Portfolio wurde im Rahmen eines Projekts bei der Developer Akademie GmbH entwickelt. Es dient Bildungszwecken und ist nicht für eine umfangreiche private oder geschäftliche Nutzung vorgesehen. Eine durchgehende Verfügbarkeit, Zuverlässigkeit, Richtigkeit oder sonstige Qualität kann daher nicht garantiert werden.",
+    "SCOPE_TEXT2": "Das Design von Portfolio ist Eigentum der Developer Akademie GmbH. Die unbefugte Nutzung, Vervielfältigung, Veränderung, Verbreitung oder Nachbildung des Designs ist ausdrücklich untersagt.",
+    "RIGHTS_TITLE": "Eigentumsrechte",
+    "RIGHTS_TEXT": "Abgesehen von dem Design der Developer Akademie GmbH behalte ich sämtliche Eigentumsrechte an Portfolio. Dazu gehören urheberrechtlich geschützte Inhalte, Marken und weitere geschützte Informationen.",
+    "USE_TITLE": "Nutzung des Produkts",
+    "USE_TEXT": "Portfolio darf ausschließlich für rechtmäßige Zwecke und unter Einhaltung aller geltenden Gesetze und Vorschriften verwendet werden. Die Nutzung für rechtswidrige Aktivitäten oder zur Belästigung, Schädigung, Bedrohung oder Einschüchterung anderer Personen ist ausdrücklich untersagt. Du bist allein für deine Interaktionen mit anderen Nutzern von Portfolio verantwortlich.",
+    "DISCLAIMER_TITLE": "Haftungsausschluss und Haftungsbeschränkung",
+    "DISCLAIMER_TEXT": "Portfolio wird im aktuellen Zustand und ohne ausdrückliche oder stillschweigende Gewährleistung bereitgestellt. Dies umfasst insbesondere die Marktgängigkeit, Eignung für einen bestimmten Zweck und die Nichtverletzung von Rechten Dritter. Weder ich noch die Developer Akademie haften für direkte, indirekte, zufällige, besondere oder daraus folgende Schäden, die aus der Nutzung oder Leistung von Portfolio entstehen.",
+    "INDEMNITY_TITLE": "Freistellung",
+    "INDEMNITY_TEXT": "Du erklärst dich damit einverstanden, mich, die Developer Akademie sowie deren Partner, Mitarbeiter und Vertreter von sämtlichen Ansprüchen, Forderungen, Verlusten, Schäden, Kosten oder Haftungen freizustellen, die aus deiner Nutzung von Portfolio oder einem Verstoß gegen dieses Impressum entstehen.",
+    "QUESTIONS": "Bei Fragen oder Hinweisen kontaktiere mich unter Derin.Salih@gmx.de.",
+    "DATE": "Stand: 26. Juli 2026"
+    },
     "FOOTER": {
     "LEGAL": "Rechtshinweis"
     }

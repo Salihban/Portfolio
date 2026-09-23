@@ -76,6 +76,26 @@
     "SEC6_TITLE": "6. Your Rights",
     "SEC6_TEXT": "You have the right to request information about your stored personal data, its origin, recipients, and the purpose of data processing at any time free of charge. You also have the right to request the correction or deletion of your data. If you have questions regarding this, you can contact me using the contact details provided in the legal notice."
     },
+    "LEGAL": {
+    "TITLE": "Legal Notice",
+    "IMPRINT": "Imprint",
+    "CONTACT": "Contact",
+    "ACCEPTANCE_TITLE": "Acceptance of terms",
+    "ACCEPTANCE_TEXT": "By accessing and using Portfolio, you acknowledge and agree to these terms and conditions and any policies, guidelines, or amendments that may be presented to you from time to time. These terms may be updated without prior notice.",
+    "SCOPE_TITLE": "Scope and ownership of the product",
+    "SCOPE_TEXT1": "Portfolio was developed as part of a student project at Developer Akademie GmbH. It serves an educational purpose and is not intended for extensive personal or business use. Therefore, consistent availability, reliability, accuracy, or any other aspect of quality cannot be guaranteed.",
+    "SCOPE_TEXT2": "The design of Portfolio is owned by Developer Akademie GmbH. Unauthorized use, reproduction, modification, distribution, or replication of the design is strictly prohibited.",
+    "RIGHTS_TITLE": "Proprietary rights",
+    "RIGHTS_TEXT": "Aside from the design owned by Developer Akademie GmbH, I retain all proprietary rights to Portfolio, including associated copyrighted material, trademarks, and other proprietary information.",
+    "USE_TITLE": "Use of the product",
+    "USE_TEXT": "Portfolio is intended to be used for lawful purposes only and in accordance with all applicable laws and regulations. Any use for illegal activities or to harass, harm, threaten, or intimidate another person is strictly prohibited. You are solely responsible for your interactions with other users of Portfolio.",
+    "DISCLAIMER_TITLE": "Disclaimer of warranties and limitation of liability",
+    "DISCLAIMER_TEXT": "Portfolio is provided as is, without warranty of any kind, whether express or implied. This includes warranties of merchantability, fitness for a particular purpose, and non-infringement. Neither I nor Developer Akademie shall be liable for direct, indirect, incidental, special, consequential, or exemplary damages arising from the use or performance of Portfolio.",
+    "INDEMNITY_TITLE": "Indemnity",
+    "INDEMNITY_TEXT": "You agree to indemnify, defend, and hold harmless me, Developer Akademie, and its affiliates, partners, officers, directors, agents, and employees from any claim, demand, loss, damage, cost, or liability arising from your use of Portfolio or your breach of this legal notice.",
+    "QUESTIONS": "For any questions or notices, please contact me at Derin.Salih@gmx.de.",
+    "DATE": "Date: July 26, 2026"
+    },
     "FOOTER": {
     "LEGAL": "Legal Notice"
     }
