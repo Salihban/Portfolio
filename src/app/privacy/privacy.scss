@@ -18,33 +18,43 @@ h1{
     max-width: 1440px;
     height: 70px;
     font-size: 40px;
-}
 
-.overhead::after{
+    &::after{
     content: '';
     position: absolute;
     top: 50%;
-    left: calc(67%);
+    left: calc(69%);
     transform: translateY(200%);
 
     width: 100vw;
     height: 4px;
     background-color: rgba(151, 71, 255, 1);
     border-radius: 0px 4px 4px 0px;
-}
+    }
 
-.overhead::before{
+    &::before{
     content: '';
     position: absolute;
     top: 50%;
-    left: 350px;
-    right: 950px;
+    left: 250px;
+    right: 970px;
     transform: translateY(300%);
 
     height: 4px;
     background-color: rgba(151, 71, 255, 1);
     border-radius: 0px 4px 4px 0px;
+    }
+    &.german-text::after{
+        left: calc(79%);
+    }
+    &.german-text::before{
+        right: 1110px;
+    }
 }
+
+
+
+
 
 h2{
     color: rgba(151, 71, 255, 1);
