@@ -6,13 +6,13 @@
 <div class="hero-container">
     <div class="hero-content">
         <div class="hero-title">
-            <p class="iam">{{ 'HERO.IAM' | translate }}</p>
+            <p class="iam" [class.german-text]="isGerman"]>{{ 'HERO.IAM' | translate }}</p>
                 <div class="name-container">
                     <h2>Salih Derin</h2>
                     <p class="job-title">FRONTEND DEVELOPER</p>
                 </div>
         </div>
-        <button id="talk-btn" class="talk-button" (click)="scrollToContact()">{{ 'HERO.LETSTALK' | translate}}</button>
+        <button id="talk-btn" class="talk-button" (click)="scrollToContact()" [class.german-text]="isGerman"]>{{ 'HERO.LETSTALK' | translate}}</button>
     </div>
 
     <div class="hero-bottom">
@@ -23,7 +23,7 @@
         </div>
     </div>
 
-    <div class="scroll-down">
+    <div class="scroll-down" [class.german-text]="isGerman"]>
         <p>{{ 'HERO.SCROLLDOWN' | translate }}<img src="assets/icons/arrow.svg" alt="arrow"></p>
     </div>
 </div>

@@ -59,6 +59,10 @@
     line-height: 1;
     white-space: nowrap;
     transform: rotate(-90deg);
+
+    &.german-text{
+        font-size: 56px;
+    }
 }
 
 .name-container{
@@ -85,13 +89,18 @@ h2{
 
 .talk-button{
     margin: 0;
-    padding: 15px;
     border: none;
     border-radius: 10px;
     background-color: rgba(112, 230, 28, 1);
-    font-size: 22px;
+    font-size: 23px;
     cursor: pointer;
     width: 150px;
+    height: 58px;
+    
+    &.german-text{
+        font-size: 18px;
+        white-space: nowrap;
+    }
 }
 
 .link-profiles::before{
@@ -141,6 +150,12 @@ h2{
     align-items: center;
     gap: 10px;
     transform: rotate(90deg);
+
+    &.german-text{
+        position: absolute;
+        bottom: 120px;
+        right: 0;
+    }
 }
 
 .scroll-down img{

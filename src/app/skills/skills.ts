@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-import { TranslatePipe } from '@ngx-translate/core';
+import { Component, inject } from '@angular/core';
+import { TranslatePipe, TranslateService } from '@ngx-translate/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-skills',
@@ -8,6 +9,9 @@ import { TranslatePipe } from '@ngx-translate/core';
   styleUrl: './skills.scss',
 })
 export class Skills {
+  private http = inject(HttpClient);
+  private translate = inject(TranslateService);
+
 skillsIcons = [
   {
     name: 'HTML',
@@ -44,4 +48,8 @@ scrollToContact() {
     behavior: 'smooth'
   });
 }
+
+get isGerman(): boolean {
+    return this.translate.currentLang() === 'de';
+  }
 }

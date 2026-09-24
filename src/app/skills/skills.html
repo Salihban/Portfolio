@@ -10,7 +10,7 @@
                 }
             </div>
             <div class="skill-text">
-                <div class="over-title">
+                <div class="over-title" [class.german-text]="isGerman"]>
                     <h2>{{ 'SKILLS.TITLE' | translate }}</h2>
                 </div>
                     <p>{{ 'SKILLS.TEXT' | translate }}</p>
@@ -19,7 +19,7 @@
                     <p>{{ 'SKILLS.LEARNING' | translate }}</p>
                 </div>
                 <div class="skill-btn">
-                    <button (click)="scrollToContact()">{{ 'SKILLS.BUTTON' | translate }}</button>
+                    <button (click)="scrollToContact()" [class.german-text]="isGerman"]>{{ 'SKILLS.BUTTON' | translate }}</button>
                 </div>
                 
             </div>
