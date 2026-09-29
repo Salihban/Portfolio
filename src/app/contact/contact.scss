@@ -3,6 +3,19 @@
     color: white;
     font-family: 'Poppins';
     overflow-x: hidden;
+    position: relative;
+    overflow: hidden;
+}
+
+.contactShadow{
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    width: 680px;
+    height: 1127px;
+    z-index: 0;
+    pointer-events: none;
 }
 
 .headline{
@@ -10,6 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 
     h2{
         font-size: 90px;
@@ -29,12 +43,14 @@
 }
 
 .contact-wrapper{
+    position: relative;
     display: flex;
     justify-content: center;
 
     height: 600px;
     margin-top: 32px;
     gap: 150px;
+    z-index: 1;
 }
 
 .contact-text{
@@ -75,7 +91,6 @@
     display: flex;
     flex-direction: column;
     width: 600px;
-
     gap: 16px;
 
     .contact-input form{
@@ -113,10 +128,12 @@
 
 input{
     height: 50px;
+    background-color: rgba(20, 29, 47, 1);
 }
 
 textarea{
     height: 200px;
+    background-color: rgba(20, 29, 47, 1);
 }
 
 .contact-input input::placeholder,
@@ -162,8 +179,12 @@ input.ng-valid.ng-touched, textarea.ng-valid.ng-touched{
 
 .go-up-btn{
     position: relative;
+    display: flex;
+    justify-content: flex-end;
     bottom: 20px;
-    left: 1300px;
+    width: calc(100% - 48px);
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 @media (max-width: 1230px) {
@@ -229,6 +250,17 @@ input.ng-valid.ng-touched, textarea.ng-valid.ng-touched{
 }
 
 @media (max-width: 768px) {
+
+.contactShadow{
+    position: absolute;
+    top: 70%;
+    right: -250px;
+    transform: translateY(-50%);
+    width: 680px;
+    height: 1127px;
+    z-index: 0;
+    pointer-events: none;
+}
 
 .headline {
 
