@@ -40,6 +40,13 @@ skillsIcons = [
   {
     name: 'Rest-Api',
     image:'assets/icons/Rest-API.svg'
+  },
+  {  name: 'Supabase',
+    image:'assets/icons/Supabase.svg'
+  },
+  {  
+    name: 'scrum',
+    image:'assets/icons/scrum.svg'
   }
 ];
 

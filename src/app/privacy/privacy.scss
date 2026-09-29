@@ -36,7 +36,7 @@ h1{
     content: '';
     position: absolute;
     top: 50%;
-    left: 250px;
+    left: 350px;
     right: 970px;
     transform: translateY(300%);
 
@@ -48,6 +48,7 @@ h1{
         left: calc(79%);
     }
     &.german-text::before{
+        left: 250px;
         right: 1110px;
     }
 }

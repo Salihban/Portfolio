@@ -5,7 +5,6 @@
 }
 
 .overhead{
-    margin: 0 auto;
     padding: 0 100px;
     max-width: 1440px;
     display: flex;
@@ -22,21 +21,22 @@
     }
 }
 
-    .portfolio-title::before{
+.portfolio-title{
+        position: relative;
+        width: fit-content;
+
+    &::before{
     content: '';
-    position: relative;
+    position: absolute;
     top: 50%;
-    right: 50%;
-    z-index: -1;
+    right: 105%;
 
     width: 1000px;
     height: 4px;
     background-color: rgba(151, 71, 255, 1);
     border-radius: 0px 4px 4px 0px;
     }
-
-
-
+}
 
 .portfolio-container {
     display: grid;
@@ -47,7 +47,7 @@
 
 .portfolio-content {
     position: relative;
-    height: 600px;
+    height: 500px;
     overflow: hidden;
     border: 2px solid #70e61c;
     border-radius: 24px;
@@ -144,7 +144,7 @@
     }
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1100px) {
 .overhead{
     padding: 0 60px;
 
@@ -157,7 +157,7 @@
     content: '';
     position: absolute;
     top: 50%;
-    right: -50%;
+    right: 105%;
 
     width: 100vw;
     height: 4px;
@@ -165,9 +165,17 @@
     border-radius: 0px 4px 4px 0px;
     }
 
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+
 .portfolio-content{
-    gap: 24px;
-    padding: 0 60px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 600px;
 }
 
 .portfolio-content img {
@@ -175,9 +183,8 @@
 }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
 .overhead{
-    width: 500px;
     padding: 24px 24px;
 
     h2{
@@ -198,26 +205,35 @@
     width: 200px;
 }
 
-.portfolio-content{
+.portfolio-container{
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    padding: 0 16px;
     gap: 24px;
-
-    width: 100%;
-    padding: 0 24px;
-    margin-top: 32px;
 }
 
-.portfolio-content img{
+.portfolio-content{
     width: 100%;
-    max-width: 420px;
     height: auto;
+    aspect-ratio: 1/ 1;
+    padding: 0;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    &:hover > img {
+    transform: scale(2.1);
+    }
 }
 }
 
 @media screen and (max-width: 480px) {
 .overhead{
     width: 320px;
+    padding: 0 24px;
 
     h2{
     font-size: 40px;
@@ -234,13 +250,48 @@
     right: calc(100% + 8px);
 }
 
-.portfolio-content{
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
     padding: 0 16px;
-    gap: 16px;
+    gap: 24px;
+}
+
+.portfolio-content{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/ 1;
+    padding: 0;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
 }
 
 .portfolio-content img{
     max-width: 100%;
     border-radius: 12px;
+}
+
+.project-links{
+    position: relative;
+    top: -60px;
+    
+    a{
+        padding: 16px;
+    }
+}
+
+.project-info{
+    padding: 0;
+
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
+    }
 }
 }
